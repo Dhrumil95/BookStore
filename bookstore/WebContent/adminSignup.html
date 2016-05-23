@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title> Book Store </title>
+    </head>
+    <body>
+    <center>
+        <h1>Admin Sign up Page</h1>
+        <form action="userManagement.jsp" method="post">
+            <br/>Full Name: 
+            <br/><input type="text" name="adminfullName">
+            <br/>Username: 
+            <br/><input type="text" name="adminuserName">
+            <br/>Password:
+            <br/><input type="password" name="adminPassword">
+            <br/>Address: 
+            <br/><input type="text" name="adminaddress">
+            <br/>Credit Card:
+            <br/><input type="text" name="admincreditcard">
+            <br/> <br/>
+            <select name="userLevel" style = "font-size:20px">
+                <option value="admin">Admin</option>
+                <option value="regular">Regular</option>
+            </select>
+            <br/>
+            <br/><input type="submit" value="Register">
+        </form>
+        <form action="userManagement.jsp" method="post">
+            <br/><input type="submit" value="Click here to go back">
+        </form>    
+    </center>
+</body>
+</html>
